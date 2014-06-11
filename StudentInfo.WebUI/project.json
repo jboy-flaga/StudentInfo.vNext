@@ -1,0 +1,15 @@
+﻿{
+    "dependencies": {
+        "Helios" : "0.1-alpha-build-0585",
+        "Microsoft.AspNet.Mvc":  "0.1-alpha-build-1268"
+    },
+    "configurations" : {
+        "net45" : { },
+        "k10" : { }
+    },
+    /* The project.json file can also contain commands that facilitate running the application from the command line. For example: */
+    "commands": {
+        /* Change the port number when you are self hosting this application */
+        "web": "Microsoft.AspNet.Hosting --server Microsoft.AspNet.Server.WebListener --server.urls http://localhost:5000"
+    }
+}
